@@ -1,6 +1,6 @@
-import { EmployeesType, WorkLogType } from 'api/types'
+import { EmployeeType, WorkLogType } from 'api/types'
 
-const employees: EmployeesType = [
+const employees: EmployeeType[] = [
   {
     id: 1,
     firstName: 'Леонид',
@@ -51,7 +51,7 @@ const employees: EmployeesType = [
   },
 ]
 
-const worklog: WorkLogType = [
+const worklog: WorkLogType[] = [
   {
     id: 1,
     employee_id: 1,
@@ -323,7 +323,7 @@ const data = {
   '/api/employees/worklog': worklog,
 }
 
-function delay(val: EmployeesType | WorkLogType) {
+function delay(val: EmployeeType[] | WorkLogType[]) {
   return new Promise((res, rej) => setTimeout(val ? res : rej, 500, val))
 }
 
