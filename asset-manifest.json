@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hospital-department/static/css/main.ca913f43.css",
-    "main.js": "/hospital-department/static/js/main.d78ac08e.js",
+    "main.js": "/hospital-department/static/js/main.7d929661.js",
     "static/js/787.43fc1921.chunk.js": "/hospital-department/static/js/787.43fc1921.chunk.js",
     "static/media/Oswald-Medium.eot": "/hospital-department/static/media/Oswald-Medium.0922d1d6384e1966882d.eot",
     "static/media/Oswald-Medium.ttf": "/hospital-department/static/media/Oswald-Medium.412de8ccd54c42018cad.ttf",
@@ -26,11 +26,11 @@
     "static/media/BebasLight.eot": "/hospital-department/static/media/BebasLight.e9c4f94381ab1b41c029.eot",
     "index.html": "/hospital-department/index.html",
     "main.ca913f43.css.map": "/hospital-department/static/css/main.ca913f43.css.map",
-    "main.d78ac08e.js.map": "/hospital-department/static/js/main.d78ac08e.js.map",
+    "main.7d929661.js.map": "/hospital-department/static/js/main.7d929661.js.map",
     "787.43fc1921.chunk.js.map": "/hospital-department/static/js/787.43fc1921.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca913f43.css",
-    "static/js/main.d78ac08e.js"
+    "static/js/main.7d929661.js"
   ]
 }
