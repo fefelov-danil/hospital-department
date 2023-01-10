@@ -2,6 +2,7 @@
   "name": "hospital-department",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fefelov-danil.github.io/hospital-department",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -15,6 +16,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
@@ -31,7 +33,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint . --fix",
     "format": "prettier . --write",
-    "fix-code": "yarn lint && yarn format"
+    "fix-code": "yarn lint && yarn format",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
