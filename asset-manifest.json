@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/hospital-department/static/css/main.ca913f43.css",
+    "main.js": "/hospital-department/static/js/main.d78ac08e.js",
+    "static/js/787.43fc1921.chunk.js": "/hospital-department/static/js/787.43fc1921.chunk.js",
+    "static/media/Oswald-Medium.eot": "/hospital-department/static/media/Oswald-Medium.0922d1d6384e1966882d.eot",
+    "static/media/Oswald-Medium.ttf": "/hospital-department/static/media/Oswald-Medium.412de8ccd54c42018cad.ttf",
+    "static/media/Oswald-Regular.eot": "/hospital-department/static/media/Oswald-Regular.238ec159343e65e17a0d.eot",
+    "static/media/Oswald-Regular.ttf": "/hospital-department/static/media/Oswald-Regular.e1093f9adc57be310c08.ttf",
+    "static/media/Oswald-Light.eot": "/hospital-department/static/media/Oswald-Light.fb02f52dd2f267860191.eot",
+    "static/media/Oswald-Light.ttf": "/hospital-department/static/media/Oswald-Light.3ee3d5c16822fd99d9ed.ttf",
+    "static/media/Oswald-Medium.woff": "/hospital-department/static/media/Oswald-Medium.166fc0cd2df8b0b4bf59.woff",
+    "static/media/Oswald-Regular.woff": "/hospital-department/static/media/Oswald-Regular.7f8da1cd05f2191785fd.woff",
+    "static/media/Oswald-Light.woff": "/hospital-department/static/media/Oswald-Light.74386c69a32d4334eb79.woff",
+    "static/media/OpenSansBold.eot": "/hospital-department/static/media/OpenSansBold.bd28c119a39c9d84a7d3.eot",
+    "static/media/OpenSansBold.ttf": "/hospital-department/static/media/OpenSansBold.b0cde4594957745358be.ttf",
+    "static/media/OpenSansSemiBold.eot": "/hospital-department/static/media/OpenSansSemiBold.eb39b543139ce12b8965.eot",
+    "static/media/OpenSansSemiBold.ttf": "/hospital-department/static/media/OpenSansSemiBold.9b31534d5742fb1c883d.ttf",
+    "static/media/OpenSansRegular.eot": "/hospital-department/static/media/OpenSansRegular.c9ebfe940e88be9056b5.eot",
+    "static/media/BebasLight.ttf": "/hospital-department/static/media/BebasLight.8cb5011114c7621ce4bc.ttf",
+    "static/media/OpenSansRegular.ttf": "/hospital-department/static/media/OpenSansRegular.1e96270eb92b148f2a25.ttf",
+    "static/media/OpenSansBold.woff": "/hospital-department/static/media/OpenSansBold.d6dc0a7557fc6ea09340.woff",
+    "static/media/OpenSansSemiBold.woff": "/hospital-department/static/media/OpenSansSemiBold.02a7b3cca38a42bfd60d.woff",
+    "static/media/OpenSansRegular.woff": "/hospital-department/static/media/OpenSansRegular.f815477469249e798748.woff",
+    "static/media/BebasLight.woff": "/hospital-department/static/media/BebasLight.a82df15e4d8be1b8ac04.woff",
+    "static/media/BebasLight.eot": "/hospital-department/static/media/BebasLight.e9c4f94381ab1b41c029.eot",
+    "index.html": "/hospital-department/index.html",
+    "main.ca913f43.css.map": "/hospital-department/static/css/main.ca913f43.css.map",
+    "main.d78ac08e.js.map": "/hospital-department/static/js/main.d78ac08e.js.map",
+    "787.43fc1921.chunk.js.map": "/hospital-department/static/js/787.43fc1921.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca913f43.css",
+    "static/js/main.d78ac08e.js"
+  ]
+}
