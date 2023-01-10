@@ -1,7 +1,4 @@
-export type EmployeesType = Employee[]
-export type WorkLogType = WorkLog[]
-
-type Employee = {
+export type EmployeeType = {
   id: number
   firstName: string
   lastName: string
@@ -10,7 +7,7 @@ type Employee = {
   phone: string
 }
 
-type WorkLog = {
+export type WorkLogType = {
   id: number
   employee_id: number
   from: string
