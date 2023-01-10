@@ -1,0 +1,21 @@
+.employeesList table {
+  width: 100%;
+  background: #dedede;
+}
+.employeesList table th {
+  padding: 10px 8px;
+  background: #AEAEAE;
+  text-align: left;
+  font-size: 18px;
+  border-right: 1px solid #fff;
+}
+.employeesList table td {
+  padding: 8px 8px;
+  border-right: 1px solid #fff;
+}
+.employeesList tbody tr:nth-of-type(2n) {
+  background: #ebebeb;
+}
+.workLogLink {
+  cursor: pointer;
+}
