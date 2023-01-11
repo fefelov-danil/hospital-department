@@ -6,5 +6,6 @@ export const filterWorkLogByEmployeeId = (workLog: WorkLogType[], id: number) =>
       if (log.employee_id === id) return true
     })
   }
+
   return []
 }

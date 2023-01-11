@@ -5,19 +5,14 @@ import { getAllEmployees } from 'redux/reducers/employees-reducer'
 import { EmployeeType } from 'api/types'
 import { getBirthday } from 'utils/dates'
 import { sortByName } from 'utils/sortByname'
-import { useNavigate } from 'react-router-dom'
 import { PATHS } from 'app/Routes'
+import { NavLink } from 'react-router-dom'
 
 export const EmployeesList = () => {
   const dispatch = useAppDispatch()
   const employees = useAppSelector((state) => state.employeesList.employees)
-  const navigate = useNavigate()
 
   const employeesSort = sortByName(employees)
-
-  const goToWorkLog = (id: number) => {
-    return navigate(PATHS.WORKLOG, { state: id })
-  }
 
   useEffect(() => {
     dispatch(getAllEmployees())
@@ -28,7 +23,9 @@ export const EmployeesList = () => {
     return (
       <>
         <td>{employee.id}</td>
-        <td>{name}</td>
+        <td>
+          <NavLink to={`${PATHS.WORKLOG}?id=${employee.id}&name=${name}`}>{name}</NavLink>
+        </td>
         <td>{getBirthday(employee.birthDate)}</td>
       </>
     )
@@ -48,11 +45,7 @@ export const EmployeesList = () => {
         <tbody>
           {employeesSort?.map((employee) => {
             return (
-              <tr
-                className={s.workLogLink}
-                onClick={() => goToWorkLog(employee.id)}
-                key={employee.id}
-              >
+              <tr className={s.workLogLink} key={employee.id}>
                 {renderTableRow(employee)}
               </tr>
             )

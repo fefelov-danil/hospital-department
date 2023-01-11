@@ -1,3 +1,28 @@
+.workLog h1 {
+  font-size: 30px;
+  margin: 20px 0;
+}
 .backLink {
   text-decoration: underline;
+}
+.workLog table {
+  width: 100%;
+  background: #dedede;
+}
+.workLog table th {
+  padding: 10px 8px;
+  background: #AEAEAE;
+  text-align: left;
+  font-size: 18px;
+  border-right: 1px solid #fff;
+}
+.workLog table td {
+  padding: 8px 8px;
+  border-right: 1px solid #fff;
+}
+.workLog tbody tr:nth-of-type(2n) {
+  background: #ebebeb;
+}
+.violation td {
+  color: red;
 }
